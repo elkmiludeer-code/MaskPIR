@@ -1,0 +1,56 @@
+{
+  "data_columns": {
+    "use_columns": [
+      1,
+      2,
+      3
+    ],
+    "skip_header": true,
+    "data_types": [
+      "float64",
+      "float64",
+      "float64"
+    ]
+  },
+  "default_predicate": {
+    "values": [
+      3840.07,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "operators": [
+      "\u003e=",
+      "\u003e=",
+      "\u003e=",
+      "\u003e=",
+      "\u003e=",
+      "\u003e=",
+      "\u003e=",
+      "\u003e=",
+      "\u003e="
+    ]
+  },
+  "vm_config": {
+    "host": "192.168.196.129",
+    "key_path": "",
+    "port": "22",
+    "user": "milu",
+    "work_dir": "/home/milu/pir_project"
+  },
+  "performance": {
+    "batch_size": 1000,
+    "enable_debug_output": false,
+    "use_memory_transfer": false
+  },
+  "error_handling": {
+    "fail_on_parse_error": false,
+    "max_skipped_rows": 10,
+    "strict_parsing": true
+  }
+}
